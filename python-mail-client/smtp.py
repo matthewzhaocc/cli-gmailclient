@@ -17,5 +17,5 @@ for i in range(int(rounds)):
         server.sendmail(gmailusername, [TO],BODY)
         print('Success')
     except:
-        print('u fucked up dawg')
+        print('failure')
 server.close()
